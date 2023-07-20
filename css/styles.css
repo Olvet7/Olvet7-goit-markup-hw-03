@@ -376,6 +376,10 @@ h1,h2,h3,h4,h5,h6 p {
 
 /* Portfolio */
 
+.section-portfolio {
+    padding: 96px 0 120px 0;
+}
+
 .filters-container {
     padding: 0 0;
 }
