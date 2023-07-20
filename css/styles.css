@@ -128,7 +128,6 @@ h1,h2,h3,h4,h5,h6 p {
     
     padding: 24px 0;
     margin-right: 76px;
-    margin-bottom: 16px;
     display: inline-block;
 }
 
@@ -253,7 +252,8 @@ h1,h2,h3,h4,h5,h6 p {
     margin-bottom: 72px;
 }
 
-.achievement-image {
+.ach-link {
+    display: block;
     width: calc((1128px - 48px) / 3);
     padding: 24px 0;
 }
@@ -390,6 +390,10 @@ h1,h2,h3,h4,h5,h6 p {
 }
 
 /* Portfolio */
+
+.list-nav {
+    padding: 24px 0;
+}
 
 .section-portfolio {
     padding: 96px 0 120px 0;
