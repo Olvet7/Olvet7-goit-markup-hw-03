@@ -121,8 +121,11 @@ h1,h2,h3,h4,h5,h6 p {
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    
     padding: 24px 0;
     margin-right: 76px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-studio {
@@ -149,6 +152,7 @@ h1,h2,h3,h4,h5,h6 p {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address:hover,
@@ -321,6 +325,7 @@ h1,h2,h3,h4,h5,h6 p {
     padding: 16px 32px;
     margin: 0 auto;
     margin-top: 48px;
+    border-radius: 4px;
     /* border-style: none;
     border-radius: 4px; */
     border-bottom-color: var(--primary_brand);
@@ -366,7 +371,7 @@ h1,h2,h3,h4,h5,h6 p {
     font-weight: 800;
     line-height: 1.1666;
     letter-spacing: 0.54px;
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
 
 /* Portfolio */
