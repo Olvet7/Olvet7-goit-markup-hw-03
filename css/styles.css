@@ -28,8 +28,8 @@ body {
     padding-right: 15px;
 
     /* Delete after verst */
-    outline: 2px solid tomato;
-    outline-offset: -2px;
+    /* outline: 2px solid tomato;
+    outline-offset: -2px; */
 }
 
 /* Section Preferenses */
@@ -197,6 +197,7 @@ h1,h2,h3,h4,h5,h6 p {
     align-content: flex-start;
     flex-direction: column;
     align-items: center;
+    width: calc((1128px - 72px) / 4);
 }
 
 /* Header 1 */
@@ -236,6 +237,10 @@ h1,h2,h3,h4,h5,h6 p {
 
 .achievement {
     padding-bottom: 72px;
+}
+
+.achievement-img {
+    width: calc((1128px - 48px) / 3);;
 }
 
 /* Header 3 */
@@ -365,8 +370,6 @@ h1,h2,h3,h4,h5,h6 p {
 /* Portfolio */
 
 .filters-container {
-    margin: 0 auto;
-    width: 586px;
     padding: 0 0;
 }
 
@@ -374,6 +377,9 @@ h1,h2,h3,h4,h5,h6 p {
     display: flex;
     justify-content: space-between;
     padding-bottom: 36px;
+    margin-left: 286px;
+    margin-right: 136px;
+    width: 586px;
 }
 
 /* Button text Portfolio */
@@ -414,15 +420,26 @@ h1,h2,h3,h4,h5,h6 p {
     display: flex;
     flex-wrap: wrap;
     padding-top: 36px;
-    gap: 24px;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+    /* gap: 24px; */
 }
 
 .portfolio-header {
     margin-top: 32px;
     margin-bottom: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .portfolio-p {
     margin-top: 0;
     margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.portfolio-card {
+    width: calc((1128px - 48px) / 3);
 }
