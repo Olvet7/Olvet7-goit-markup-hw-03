@@ -255,6 +255,7 @@ h1,h2,h3,h4,h5,h6 p {
 
 .achievement-image {
     width: calc((1128px - 48px) / 3);
+    padding: 24px 0;
 }
 
 /* Header 3 */
