@@ -63,6 +63,7 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav-link {
@@ -174,7 +175,7 @@ h1,h2,h3,h4,h5,h6 p {
 /* Team */
 
 .team-header {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .cards {
@@ -427,6 +428,7 @@ h1,h2,h3,h4,h5,h6 p {
     padding: 12px 24px;
     margin: 0 auto;     
     border: 1px solid var(--accent);
+    border-radius: 4px;
 }
 
 .button-text:hover,
@@ -455,9 +457,10 @@ h1,h2,h3,h4,h5,h6 p {
 }
 
 .portfolio-list-link {
+    border: 1px solid var(--accent);
+    border-top: none;
     padding: 32px 16px;
-     border: 1px solid var(--accent);
-     border-top: none;
+    justify-content: center;
 }
 
 .portfolio-header {
