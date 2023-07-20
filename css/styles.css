@@ -238,7 +238,7 @@ h1,h2,h3,h4,h5,h6 p {
 }
 
 .achievement {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .achievement-img {
@@ -254,6 +254,10 @@ h1,h2,h3,h4,h5,h6 p {
     letter-spacing: 0.02em;
 }
 
+.header-preferenses {
+    margin-bottom: 8px;
+}
+
 /* Body */
 .body {
     color: var(--slate, #434455);
@@ -264,13 +268,13 @@ h1,h2,h3,h4,h5,h6 p {
 }
 
 .preferenses-descr {
-    margin-top: 8px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .studio-img {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 /* Small text */
