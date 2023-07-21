@@ -403,7 +403,7 @@ h1,h2,h3,h4,h5,h6 p {
 .filters-container {
     padding: 0 0;
     justify-content: center;
-    margin-bottom: 72px
+    margin-bottom: 72px;
 }
 
 .filters {
@@ -412,7 +412,7 @@ h1,h2,h3,h4,h5,h6 p {
     padding-bottom: 36px;
     margin-left: 286px;
     margin-right: 136px;
-    width: 586px;
+    width: 736px;
     padding: 24px 0;
     gap: 24px;
 }
@@ -429,7 +429,7 @@ h1,h2,h3,h4,h5,h6 p {
     letter-spacing: 0.04em;
     cursor: pointer;
 
-    display: block;
+    display: flex;
     justify-content: center;
     padding: 12px 24px;
     margin: 0 auto;     
@@ -462,15 +462,15 @@ h1,h2,h3,h4,h5,h6 p {
     row-gap: 48px;
 }
 
-.portfolio-list-link {
+/* .portfolio-list-link {
     border: 1px solid var(--accent);
     border-top: none;
-    padding: 32px 16px;
     justify-content: center;
-}
+    text-align: left;
+} */
 
 .portfolio-header {
-    text-align: center;
+    /* text-align: left; */
     margin-bottom: 8px;
 }
 
